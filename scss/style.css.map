@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "style.scss",
+        "_responsive-mixin.scss",
+        "_globals.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
