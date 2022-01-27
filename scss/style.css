@@ -33,7 +33,7 @@
 }
 
 .header--subtitle {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -44,7 +44,7 @@
 }
 
 .header--text {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -88,7 +88,7 @@
 }
 
 .card--name {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -110,5 +110,17 @@
   text-transform: uppercase;
   color: #000;
   float: right;
+}
+
+.page--foter {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #A9A9A9;
+  text-align: center;
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=style.css.map */
