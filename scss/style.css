@@ -12,7 +12,7 @@
 }
 @media (max-width: 991px) {
   .page--wrapper {
-    margin: 0;
+    padding: 20px;
   }
 }
 
@@ -79,12 +79,24 @@
 @media (max-width: 991px) {
   .hero--wrapper {
     grid-template-columns: repeat(2, auto);
+    grid-auto-rows: minmax(auto, auto);
     margin: 30px auto;
+    grid-gap: 20px;
   }
 }
 
 .card--img {
-  height: 400px;
+  max-height: 400px;
+}
+@media (max-width: 991px) {
+  .card--img {
+    width: 90%;
+  }
+}
+@media (max-width: 575px) {
+  .card--img {
+    width: 85%;
+  }
 }
 
 .card3 {
@@ -100,8 +112,13 @@
 }
 
 .card--wrapper {
-  width: 270px;
+  max-width: 270px;
   place-self: center;
+}
+@media (max-width: 991px) {
+  .card--wrapper {
+    max-width: 75%;
+  }
 }
 
 .card--name {
